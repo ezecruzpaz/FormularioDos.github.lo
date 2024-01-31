@@ -4,7 +4,7 @@ self.addEventListener('install', function(event) {
             return cache.addAll([
                 '/',
                 'index.html',
-                'styles.css', // Agrega la ruta correcta a tu archivo CSS
+                'css/estilo.css', // Agrega la ruta correcta a tu archivo CSS
                 'js/forumulario.js', // Agrega la ruta correcta a tu archivo JavaScript
                 // Agrega aquí los recursos que deseas cachear
             ]);
